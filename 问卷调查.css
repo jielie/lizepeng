@@ -1,0 +1,36 @@
+#div0{
+	width: 100%;
+	}
+#div1{
+	width: 50%;
+	height: 500px;
+	float: left;
+}
+#div3{
+	width: 50%;
+	height: 500px;
+	float: left;
+}
+#table1{
+	width: 100%;
+	border:solid #AFEEEE;
+	background-image: url(http://moba.yh.cn/resource/img/role-bg.jpg);
+	background-size: cover;
+	color:blue;
+}
+.td1{
+	width: 30%;
+	border: 5px solid #AFEEEE;
+	text-align: center;
+} 
+.td2{
+	width: 70%;
+	border: 5px solid #AFEEEE;
+}
+#submit{
+	font-size: 30px;
+}
+#reset{
+	font-size: 30px;
+}
+body{background-color: black}

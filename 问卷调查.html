@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>表单页</title>
+	<link rel="stylesheet" href="问卷调查.css">
+	<style type="text/css">
+		#form2{background: blue;padding: 10px;margin:auto;}
+	
+	</style>
+</head>
+<body>
+	<div id="div0">
+		<div id="div1">
+			<table id="table1">
+				<caption>请您递上一份宝贵的答复,不胜感激</caption>
+				<tr>
+					<td class="td1">填表时间:</td>
+					<td class="td2">Date:<input type="date"></td>
+				</tr>
+				<tr>
+					<td class="td1">您的性别:</td>
+					<td class="td2">
+						<select>
+							<option value="男" selected="selected">男</option>
+							<option value="女">女</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<form id="form1" action="">
+							<h3>1.您是从什么途径知道阴阳师手游的？</h3>
+							<label><input type="radio" name="radio" value="A">社交平台如微信、微博等<br></label>
+							<label><input type="radio" name="radio" value="B">哗哩哗哩AcFun等二次元网站<br></label>
+							<label><input type="radio" name="radio" value="C">身边朋友推荐<br></label>
+							<label><input type="radio" name="radio" value="D">APPStore软件商店排名<br></label>
+							<label><input type="radio" name="radio" value="E">没听过阴阳师<br></label>
+							<h3>2.您玩阴阳师这款游戏多久？</h3>
+							<label><input type="radio" name="radio" value="A">一周<br></label>
+							<label><input type="radio" name="radio" value="B">三周<br></label>
+							<label><input type="radio" name="radio" value="C"> 一个月<br></label>
+							<label><input type="radio" name="radio" value="D">  三个月<br></label>
+							<label><input type="radio" name="radio" value="E">  半年以上<br></label>
+							<h3>3.阴阳师最吸引你的地方在哪儿？</h3>
+							<label><input type="radio" name="radio" value="A">画风、人设精美<br></label>
+							<label><input type="radio" name="radio" value="B">身边很多朋友在玩，感觉还不错<br></label>
+							<label><input type="radio" name="radio" value="C">众多的优秀同人文、绘画、cosplay等作品<br></label>
+							<label><input type="radio" name="radio" value="D">日本阴阳师题材独特<br></label>
+							<label><input type="radio" name="radio" value="E">声优团队强大<br></label>
+							<h3>4.您的社交平台上关于阴阳师的内容数量如何？</h3>
+							<label><input type="radio" name="radio" value="A">很多<br></label>
+							<label><input type="radio" name="radio" value="B">一般<br></label>
+							<label><input type="radio" name="radio" value="C">很少<br></label>
+							<h3>5.单选题每天会花多久在玩阴阳师中？</h3>
+							<label><input type="radio" name="radio" value="A">1h<br></label>
+							<label><input type="radio" name="radio" value="B">1-3h<br></label>
+							<label><input type="radio" name="radio" value="C">3-6h<br></label>
+							<label><input type="radio" name="radio" value="D">6h<br></label>
+							<h3>6.您一般在什么情况下玩阴阳师？</h3>
+							<label><input type="radio" name="radio" value="A">下课间隙<br></label>
+							<label><input type="radio" name="radio" value="B">寝室里休息<br></label>
+							<label><input type="radio" name="radio" value="C">上课期间<br></label>
+							<label><input type="radio" name="radio" value="D">根本停不下来<br></label>
+							<label><input type="radio" name="radio" value="E">睡前做做任务<br></label>
+							<label><input type="radio" name="radio" value="F">其他<br></label>
+							<h3>7.对于社交平台上多数的阴阳师有关内容，你是怎么看待的？</h3>
+							<label><input type="radio" name="radio" value="A">较喜欢，看别人讨论很有意思<br></label>
+							<label><input type="radio" name="radio" value="B">略反感，讨论游戏不玩的人看不懂<br></label>
+							<label><input type="radio" name="radio" value="C">没意见，他们讨论他们的<br></label>
+							<label><input type="radio" name="radio" value="D">很反感，刷屏的阴阳师和ssr没意思<br></label>
+							<label><input type="radio" name="radio" value="E">很喜欢，可以和小伙伴一起吐槽<br></label>
+							<h3>8.在进入游戏之前，您对阴阳师的了解有多少？</h3>
+							<label><input type="radio" name="radio" value="A">没有听说过<br></label>
+							<label><input type="radio" name="radio" value="B">只知道阴阳师这个词<br></label>
+							<label><input type="radio" name="radio" value="C">知道阴阳师这个概念<br></label>
+							<label><input type="radio" name="radio" value="D">看过相关文学、动漫作品<br></label>
+							<h3>9.您对动漫关注的多吗？</h3>
+							<label><input type="radio" name="radio" value="A">看过几部经典动漫<br></label>
+							<label><input type="radio" name="radio" value="B">看的挺多会追新番<br></label>
+							<label><input type="radio" name="radio" value="C">不看动漫<br></label>
+							<label><input type="radio" name="radio" value="D">看的挺多会追新番<br></label>
+							<label><input type="radio" name="radio" value="E">会追番且关注周边文化<br></label>
+							<label><input type="radio" name="radio" value="F">会追番且自己参与创作同人作品<br></label>
+							<tr>
+							<td><button type="submit" style="background: #00ffff;border-radius: 12px;padding: 10px">提交</button> 
+								<button type="reset" style="background: #00ffff;border-radius: 12px;padding: 10px">重置</button>
+							</td>
+							</tr>
+						</form>
+					</td>
+				</tr>
+				<tr>
+					<td class="td1">您的意见或建议</td>
+					<td class="td2">
+						<textarea  style="background:#F0FFFF" placeholder="感谢您的意见和建议，谢谢参与！"></textarea>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div id="div3">
+			<form id="form2" action="">
+			<fieldset>
+				<legend>用户登录</legend>
+				<p><label for="user">账号：</label><input type="text" name="user" id="user" placeholder="账号" required=""></p>
+				<p><label for="password">密码：</label><input type="password" name="password" id="password" placeholder="密码"></p>
+				<p><label for="tel">电话号码：</label><input type="tel" name="tel" id="tel" placeholder="电话"></p>
+				<p><label for="email">电子邮件：</label><input type="email" name="email" id="email" placeholder="电子邮件"></p>
+				<button type="submit">用户登录</button>
+			</fieldset>
+			</form> 
+		</div> 
+	</div>
+</body>
+</html>

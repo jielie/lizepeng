@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<title>阴阳师首页</title>
+	<link rel="stylesheet" type="text/css" href="css/1.css">
+	<style type="text/css">
+		.poster-main{
+			position: relative;
+			margin: 150px ;
+		}
+		.poster-main .poster-list .poster-item{
+			position: absolute;
+			left: 10;
+			top: 10; 
+			size: height="200px" width="100%"
+		}
+		.poster-main .poster-btn{
+			position: absolute;
+			top: 0;
+			cursor: pointer;
+		}
+		.poster-main .poster-prev-btn{
+			left: 0;
+			background: url("images/btn_l.png") no-repeat center center;
+		}
+		.poster-main .poster-next-btn{
+			right: 0;
+			background: url("images/btn_r.png") no-repeat center center;
+		}
+	</style>
+</head>
+<body>
+<a href="#">首页</a>
+	<a href="式神.html">式神录</a>
+<a href="问卷调查.html">问卷调查</a></div>
+    <div class="poster-main" id="carousel" data-setting='{
+							"width":1000,
+							"height":300,
+							"posterWidth":600,
+							"posterHeight":300,
+							"scale":1,
+							"speed":1000,
+							"autoPlay":true,
+							"delay":3000,
+							"verticalAlign":"middle"
+							}' 
+
+	</div>
+		<div class="poster-btn poster-prev-btn"></div> 
+		    <div>
+			   <ul class="poster-list"> 
+			    <li class="poster-item"><img src="images/1.jpg" size: height="300px" width="100%" /></li> 
+			    <li class="poster-item"><img src="images/2.jpg" size: height="300px" width="100%" /></li> 
+			    <li class="poster-item"><img src="images/3.jpg" size: height="300px" width="100%" /></li> 
+			    <li class="poster-item"><img src="images/4.jpg" size: height="300px" width="100%" /></li> 
+			    <li class="poster-item"><img src="images/5.jpg" size: height="300px" width="100%" /></li> 
+			   </ul> 
+			 </div> 
+	     <div class="poster-btn poster-next-btn"></div> 
+	</div> 
+
+	<li><h2>简介</h2></li>
+	<p><b>《阴阳师》是由网易移动游戏公司自主研发的3D日式和风回合制RPG手游。
+     游戏中的和风元素是以《源氏物语》的古日本平安时代为背景设计的。游戏剧情以日本平安时代为背景，讲述了阴阳师安倍晴明于人鬼交织的阴阳两界中，探寻自身记忆的故事 。
+     剧情充实细腻而不乏创新点，画风唯美空灵极具和风意境。</b></p>
+    <li><h2>阴阳师</h2></li>
+<table border="1" cellspacing="0">
+   <thead>
+     <tr>
+       <th>阴阳师</th>
+       <th>cv</th>
+       <th>介绍</th>
+     </tr>
+   </thead>
+   <tbody>
+    <tr>
+       <td>安倍晴明</td>
+       <td>杉山纪彰</td>
+       <td>平安时代强大的阴阳师，性格冷峻飘逸。拥有忠诚的守护式神——小白，并先后认识了神乐、源博雅和八百比丘尼三位伙伴。</td>
+     </tr>
+      <tr>
+       <td>神乐</td>
+       <td>钉宫理惠</td>
+       <td>贺茂家族的后代，性格单纯善良，具备通灵能力，被晴明遇到带回庭院。</td>
+     </tr>
+     <tr>
+       <td>源博雅</td>
+       <td>铃木达央</td>
+       <td>平安时代贵族，是皇室之后，同时也是一名武士。性格孤傲爽直，善用大弓，其弓箭具有射杀妖怪之力。从小桀骜不驯，喜欢冒险与挑战。遇到晴明和神乐之后，便经常光顾庭院。</td>
+     </tr>
+     <tr>
+       <td>八百比丘尼</td>
+       <td>泽城美雪</td>
+       <td>误食人鱼肉不老不死，已活了几百年的神秘巫师。占卜到晴明是命中注定可以帮助其解除诅咒之人，便居住在凤凰林中等待晴明，后来便一直留在庭院。</td>
+     </tr>
+     </tbody>
+   </table>
+   </ul>
+	<script src="http://cdn.bootcss.com/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
+	<script>window.jQuery || document.write('<script src="js/jquery-1.9.1.min.js"><\/script>')</script>
+	<script src="js/Carousel.js"></script> 
+	<script type="text/javascript">
+		$(function(){
+			Carousel.init($("#carousel"));
+			$("#carousel").init();
+		});
+	</script>
+</body>
+</html>
