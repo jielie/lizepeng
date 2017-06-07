@@ -1,7 +1,7 @@
 body{
 	background-image: url(bg.jpg);
 	background-size: 100% 100%;
-	background-size: 1920px 917px;
+	background-size: 1920px 1200px;
 	background-position:top;
 	background-repeat: no-repeat;
 }
@@ -58,3 +58,4 @@ font-size: 30px;
  	text-align:center;
  	font-size: 10px;
  }
+#div1 img{ width: 80%; }
